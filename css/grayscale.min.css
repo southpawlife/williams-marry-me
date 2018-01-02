@@ -155,7 +155,7 @@ font-family: 'Sedgwick Ave', cursive;
 
 .venue-section {
   color: white;
-  background: url("../img/venue-bg.jpg") no-repeat center center scroll;
+  background: url("../img/venue-bg.png") no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
