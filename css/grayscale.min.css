@@ -153,6 +153,15 @@ font-family: 'Sedgwick Ave', cursive;
   -o-background-size: cover;
   background-size: cover; }
 
+.venue-section {
+  color: white;
+  background: url("../img/venue-bg.jpg") no-repeat center center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
 #map {
   width: 100%;
   height: 300px; }
