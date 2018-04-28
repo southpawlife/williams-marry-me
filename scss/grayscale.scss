@@ -1,8 +1,7 @@
 @import 'variables.scss';
 @import 'mixins.scss';
 body {
-  font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-
+  font-family: 'Amatic SC', cursive;
   position: relative;
 
   width: 100%;
@@ -23,7 +22,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Amatic SC', cursive;
   font-weight: 700;
 
   margin: 0 0 35px;
@@ -60,7 +59,7 @@ a {
 }
 
 #mainNav {
-  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-family: 'Amatic SC', cursive;
 
   margin-bottom: 0;
 
@@ -69,9 +68,9 @@ a {
   border-bottom: 1px solid fade-out(white, .7);
   background-color: black;
   .navbar-toggler {
-    font-size: 14px;
+    font-size: 30px;
 
-    padding: 11px;
+    padding: 13px;
 
     color: white;
     border: 1px solid white;
@@ -148,10 +147,10 @@ a {
 
     vertical-align: middle;
     .brand-heading {
-      font-size: 50px;
+      font-size: 100px;
     }
     .intro-text {
-      font-size: 18px;
+      font-size: 30px;
     }
   }
   @media(min-width:768px) {
@@ -162,7 +161,7 @@ a {
         font-size: 100px;
       }
       .intro-text {
-        font-size: 22px;
+        font-size: 30px;
       }
     }
   }
@@ -222,7 +221,7 @@ a {
 }
 
 .btn {
-  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-family: 'Amatic SC', cursive;
   font-weight: 400;
 
   -webkit-transition: all 0.3s ease-in-out;

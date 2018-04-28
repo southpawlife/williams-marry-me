@@ -4,8 +4,10 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 body {
-font-family: 'Sedgwick Ave', cursive;
-  position: relative;
+  font-family: 'Amatic SC', cursive;
+  text-shadow: -1px 0 black, 0 6px black, 1px 0 black, 0 -1px black;
+
+  position: center;
   width: 100%;
   height: 100%;
   color: white;
@@ -21,11 +23,11 @@ h3,
 h4,
 h5,
 h6 {
-font-family: 'Sedgwick Ave', cursive;
+  font-family: 'Amatic SC', cursive;
   font-weight: 700;
   margin: 0 0 35px;
   letter-spacing: 1px;
-  text-transform: uppercase; }
+   }
 
 p {
   font-size: 16px;
@@ -47,14 +49,15 @@ a {
     color: #1d9b6c; }
 
 #mainNav {
-font-family: 'Sedgwick Ave', cursive;
+  font-family: 'Amatic SC', cursive;
   margin-bottom: 0;
-  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 130%
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   background-color: black; }
   #mainNav .navbar-toggler {
-    font-size: 14px;
-    padding: 11px;
+    font-size: 25px;
+    padding: 10px;
     color: white;
     border: 1px solid white; }
   #mainNav .navbar-brand {
@@ -79,7 +82,7 @@ font-family: 'Sedgwick Ave', cursive;
       -webkit-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
       -moz-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
       transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
-      letter-spacing: 1px;
+      letter-spacing: 3px;
       border-bottom: none;
       background: transparent; }
       #mainNav.navbar-shrink {
@@ -110,7 +113,7 @@ font-family: 'Sedgwick Ave', cursive;
     display: table-cell;
     vertical-align: middle; }
     .masthead .intro-body .brand-heading {
-      font-size: 50px; }
+      font-size: 100px; }
     .masthead .intro-body .intro-text {
       font-size: 18px; }
   @media (min-width: 768px) {
@@ -123,7 +126,7 @@ font-family: 'Sedgwick Ave', cursive;
         font-size: 22px; } }
 
 .btn-circle {
-  font-size: 26px;
+  font-size: 36px;
   width: 55px;
   height: 55px;
   margin-top: 15px;
@@ -155,12 +158,12 @@ font-family: 'Sedgwick Ave', cursive;
 
 .venue-section {
   color: white;
-  background: url("../img/venue-bg.png") no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+
 
 #map {
   width: 100%;
@@ -174,12 +177,10 @@ font-family: 'Sedgwick Ave', cursive;
     height: 350px; } }
 
 .btn {
-font-family: 'Sedgwick Ave', cursive;
   font-weight: 400;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  text-transform: uppercase;
   border-radius: 0; }
 
 .btn-default {
